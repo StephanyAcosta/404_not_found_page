@@ -1,50 +1,51 @@
-html
-font-family: "Space mono", monospace;
-padding: 4px;
-
-container-image
-width: 100
-
-
-.imagewidth:100%
-
-
-.container
-display:flex;
-flex-direction: column;
-gap: 10px;
-
-h2
-font-size: 2.5rem;
-margin: 0;
-
-h1
-font-size: 1rem;
-
-main
-width: 100%
-gap: 3.5rem;
-display: flex;
-flex-direction: column;
-
-p
-max-width: 300px;
-
-button
-margin-top: 1.5rem;
-width: fit-content;
-padding: 1rem;
-background: #333333;
-color: white;
-
-footer
-margin-top: 3rem;
-font-size: 12px;
-display: flex;
-justify-content: center;
-
+html{
+    font-family: "Space mono", monospace;
+    padding: 4px;
+}
+container-image{
+    width: 100
+}
+.image{
+    width:100%
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h2{
+    font-size: 2.5rem;
+    margin: 0;
+}
+h1{
+    font-size: 1rem;
+}
+main{
+    width: 100%
+    gap: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    max-width: 300px;
+}
+button{
+    margin-top: 1.5rem;
+    width: fit-content;
+    padding: 1rem;
+    background: #333333;
+    color: white;
+}
+footer{
+    margin-top: 3rem;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
 @media only screen and (min-width: 768px)
-main
-flex-direction: row;
-
+main{
+    flex-direction: row;
+}
+{
 container-image
+}
